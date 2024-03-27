@@ -1,4 +1,4 @@
-import { Platfrom } from "../Hooks/useGames";
+import { Platform } from "../Hooks/useGames";
 import { HStack, Icon } from "@chakra-ui/react";
 
 import {
@@ -16,7 +16,7 @@ import { BsGlobe } from "react-icons/bs";
 import { IconType } from "react-icons";
 
 interface Props {
-  platforms: Platfrom[];
+  platforms: Platform[];
 }
 
 const PlatformIconList = ({ platforms }: Props) => {
